@@ -1,0 +1,244 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-logo{
+    width: 23%;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-search-bar{
+    width: 45%;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-account{
+    width: 32%;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* this code design for logo */
+.logo{
+   width: 110px;
+   height: 35px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 13px;
+}
+.location a{
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+#hello{
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+a,i{
+    text-decoration: none;
+    color: #fff;
+}
+/* <!-- this code for search any item on site --> */
+#All{
+    width: 52px;
+    height: 40px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #D6D6D6;
+    /* opacity: 0.9; */
+    color: gray;
+}
+.search{
+    height: 40px;
+    width: 500px;
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    background-color: #FEBD69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  color: #0f1111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  border: none;
+}
+.fa-magnifying-glass{
+    margin-bottom: 1rem;
+}
+/* <!-- this code for account setup --> */
+.language{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+}
+#EN{
+    font-weight: bolder;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 0.9rem;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.sign-in select{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+.sign-in a{
+    font-size: small;
+    margin: 5px;
+    line-height: 0.7rem;
+    /* top: -1px; */
+    text-align: center;
+}
+.return-item{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+#Returns{
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+.add-item{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.header{
+    height: 38px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+}
+/* <!-- header code --> */
+.bar{
+    height: 38px;
+    width: 59px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center ;
+}
+.list{
+    width: 60%;
+    
+}
+.list a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-decoration: solid;
+}
+/* this code for slider photo */
+.main-photo{
+    min-height:100vh;
+    width: 100%;
+
+    
+}
+.containt-item{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -250px;
+    background-color: rgb(216, 216, 216);
+    flex-direction: row;
+}
+.item{
+    height: 450px;
+    width: 310px;
+    background-color: white;
+    margin: 12px;
+    margin-top: 12px;
+    
+}
+.item img{
+    margin-left: 25px;
+}
+.item a{
+    margin-left: 25px;
+    font-weight: 300;
+    color: blue;
+    font-size: 0.9rem;
+}
+.item h2{
+    text-align: center;
+    margin: 25px;
+}
+.inner-div{
+    height: 70%;
+    width: 90%;
+    margin: 10px;
+    margin-left: 5px;
+    /* margin-top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.inner-div p{
+    font-size: 0.5rem;
+}
+.women{
+    padding-left: 20px;
+}
+.scroll-bar-container{
+    background-color: rgb(216, 216, 216);
+    height: 65vh;
+    width: 100%;
+    margin-top: 20px;
+}
+.scroll-item{
+    height: 285px;
+    width: 100%;
+    background-color: white;
+}
+.scroll-item img{
+    margin-left: 30px;
+}
+.back-to-top{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:#37475A;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+}
+.footer{
+    height: 350px;
+    width: 100%;
+    background-color: #232F3E;
+    text-align: center;
+    color: white;
+}
